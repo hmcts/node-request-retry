@@ -8,4 +8,4 @@ function isErrorResponse(response) {
   return 400 <= response.statusCode && response.statusCode < 600
 }
 
-module.exports = isErrorResponse
+module.exports = isErrorResponse;
