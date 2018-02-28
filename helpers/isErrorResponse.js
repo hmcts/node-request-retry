@@ -5,7 +5,7 @@
  * @return boolean true if the response status is 4XX or 5XX
  */
 function isErrorResponse(response) {
-  return 400 <= response.statusCode && response.statusCode < 600;
+  return response.statusCode >= 400;
 }
 
 module.exports = isErrorResponse;
