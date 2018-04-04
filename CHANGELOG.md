@@ -1,3 +1,9 @@
+<a name="1.1.1"></a>
+# 1.1.0 (2018-04-04)
+
+* Use options simple to decide rejections [#3](https://github.com/hmcts/node-request-retry/pull/3)
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2018-03-01)
 
