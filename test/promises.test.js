@@ -93,7 +93,8 @@ describe('Promises support', function () {
     request({
       url: 'http://some-test-host/return-400',
       maxAttempts: 1,
-      retryStrategy: request.RetryStrategies.HTTPOrNetworkError
+      retryStrategy: request.RetryStrategies.HTTPOrNetworkError,
+      simple: true
     })
       .catch(function (err) {
         t.strictEqual(err.statusCode, 400);
@@ -110,7 +111,8 @@ describe('Promises support', function () {
     request({
       url: 'http://some-test-host/return-500',
       maxAttempts: 1,
-      retryStrategy: request.RetryStrategies.HTTPOrNetworkError
+      retryStrategy: request.RetryStrategies.HTTPOrNetworkError,
+      simple: true
     })
       .catch(function (err) {
         t.strictEqual(err.statusCode, 500);
@@ -127,6 +129,20 @@ describe('Promises support', function () {
     });
   });
 
+  it('should not reject the promise on 404 response, when options.simple is false', function (done) {
+    nock('http://some-test-host')
+      .get('/return-404')
+      .reply(404, 'Not Found');
+
+    request({
+      url: 'http://some-test-host/return-404',
+      maxAttempts: 1,
+      retryStrategy: request.RetryStrategies.HTTPOrNetworkError,
+      simple: false
+    });
+    done();
+  });
+
   describe('Different libraries support', function () {
 
     function makeRequest(promiseFactoryFn, done, throwError) {
@@ -140,7 +156,8 @@ describe('Promises support', function () {
         url: requestUrl,
         maxAttempts: 1,
         fullResponse: false, // to resolve with just the response body,
-        promiseFactory: promiseFactoryFn // custom promise factory function
+        promiseFactory: promiseFactoryFn, // custom promise factory function
+        simple: true
       })
       .then(function (body) {
         t.isString(body);
