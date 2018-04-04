@@ -139,7 +139,10 @@ describe('Promises support', function () {
       maxAttempts: 1,
       retryStrategy: request.RetryStrategies.HTTPOrNetworkError,
       simple: false
-    });
+    })
+      .then(function (response) {
+        t.strictEqual(response.statusCode, 404);
+      });
     done();
   });
 
