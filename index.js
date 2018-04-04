@@ -111,7 +111,7 @@ function Request(url, options, f, retryConfig) {
       return this._reject(err);
     }
 
-    if (isErrorResponse(response)) {
+    if (options.simple && isErrorResponse(response)) {
       return this._reject(new StatusCodeError(response.statusCode, body, this.options, response));
     }
 
