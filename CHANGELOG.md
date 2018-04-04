@@ -1,15 +1,14 @@
 <a name="1.1.1"></a>
-# 1.1.0 (2018-04-04)
+## <small>1.1.1 (2018-04-04)</small>
 
-* Use options simple to decide rejections [#3](https://github.com/hmcts/node-request-retry/pull/3)
-
-
-<a name="1.1.0"></a>
-# 1.1.0 (2018-03-01)
-
+* Add then assertion ([9073935](https://github.com/hmcts/node-request-retry/commit/9073935))
 * Bump versions as bad package-lock published ([66f0164](https://github.com/hmcts/node-request-retry/commit/66f0164))
-* Reject promises on 4XX and 5XX responses (#1) ([2dca4b3](https://github.com/hmcts/node-request-retry/commit/2dca4b3))
-* Reject promises with request-promise StatusCodeError (#2) ([50fed0f](https://github.com/hmcts/node-request-retry/commit/50fed0f))
+* Fix tests and add new ([472e6e1](https://github.com/hmcts/node-request-retry/commit/472e6e1))
+* Reject promises on 4XX and 5XX responses (#1) ([2dca4b3](https://github.com/hmcts/node-request-retry/commit/2dca4b3)), closes [#1](https://github.com/hmcts/node-request-retry/issues/1)
+* Reject promises with request-promise StatusCodeError (#2) ([50fed0f](https://github.com/hmcts/node-request-retry/commit/50fed0f)), closes [#2](https://github.com/hmcts/node-request-retry/issues/2)
+* Update change log ([daee09d](https://github.com/hmcts/node-request-retry/commit/daee09d))
+* Use options.simple to decide rejections ([907fc18](https://github.com/hmcts/node-request-retry/commit/907fc18))
+* docs(changelog): updated ([1df3e60](https://github.com/hmcts/node-request-retry/commit/1df3e60))
 * docs(changelog): updated ([282c849](https://github.com/hmcts/node-request-retry/commit/282c849))
 * docs(changelog): updated ([2cff7a4](https://github.com/hmcts/node-request-retry/commit/2cff7a4))
 * docs(changelog): updated ([54a604a](https://github.com/hmcts/node-request-retry/commit/54a604a))
@@ -17,7 +16,7 @@
 
 
 <a name="1.13.0"></a>
-# 1.13.0 (2018-01-18)
+## 1.13.0 (2018-01-18)
 
 * fix(logic) ([3c4751e](https://github.com/hmcts/node-request-retry/commit/3c4751e))
 * Release v1.13.0. ([8382911](https://github.com/hmcts/node-request-retry/commit/8382911))
@@ -27,7 +26,7 @@
 
 
 <a name="1.12.3"></a>
-## 1.12.3 (2018-01-18)
+## <small>1.12.3 (2018-01-18)</small>
 
 * Added testing for error object attempts reporting ([578870f](https://github.com/hmcts/node-request-retry/commit/578870f))
 * Added the attempts property and assigned it to the error object returned when a network error occurs ([ecd9f5c](https://github.com/hmcts/node-request-retry/commit/ecd9f5c))
@@ -43,7 +42,7 @@
 
 
 <a name="1.12.2"></a>
-## 1.12.2 (2017-08-01)
+## <small>1.12.2 (2017-08-01)</small>
 
 * Added .auth, .jar and .cookie implementations along with corresponding tests ([15afe79](https://github.com/hmcts/node-request-retry/commit/15afe79))
 * formatting updated + version bump ([6ad6f09](https://github.com/hmcts/node-request-retry/commit/6ad6f09))
@@ -67,7 +66,7 @@
 
 
 <a name="1.12.0"></a>
-# 1.12.0 (2016-09-07)
+## 1.12.0 (2016-09-07)
 
 * Add delay strategy ([ce99e46](https://github.com/hmcts/node-request-retry/commit/ce99e46))
 * docs(delayStrategy) ([be1fdc3](https://github.com/hmcts/node-request-retry/commit/be1fdc3))
@@ -81,7 +80,7 @@
 
 
 <a name="1.11.0"></a>
-# 1.11.0 (2016-09-03)
+## 1.11.0 (2016-09-03)
 
 * fix(circle) ([e6c2160](https://github.com/hmcts/node-request-retry/commit/e6c2160))
 * fix(deps) ([35921bb](https://github.com/hmcts/node-request-retry/commit/35921bb))
@@ -93,7 +92,7 @@
 
 
 <a name="1.10.0"></a>
-# 1.10.0 (2016-08-18)
+## 1.10.0 (2016-08-18)
 
 * Release v1.10.0. ([b1fbef5](https://github.com/hmcts/node-request-retry/commit/b1fbef5))
 * feat(updtr): use updtr ([85bc2c6](https://github.com/hmcts/node-request-retry/commit/85bc2c6))
@@ -102,7 +101,7 @@
 
 
 <a name="1.9.1"></a>
-## 1.9.1 (2016-07-29)
+## <small>1.9.1 (2016-07-29)</small>
 
 * fix(changelog) ([9715bd6](https://github.com/hmcts/node-request-retry/commit/9715bd6))
 * fix(readme) ([7e8b8c7](https://github.com/hmcts/node-request-retry/commit/7e8b8c7))
@@ -113,7 +112,7 @@
 
 
 <a name="1.9.0"></a>
-# 1.9.0 (2016-06-22)
+## 1.9.0 (2016-06-22)
 
 * Add support for body-dependent retry strategies ([0f472f9](https://github.com/hmcts/node-request-retry/commit/0f472f9))
 * Amended for body-dependent retry strategies ([db7a4ef](https://github.com/hmcts/node-request-retry/commit/db7a4ef))
@@ -123,7 +122,7 @@
 
 
 <a name="1.8.0"></a>
-# 1.8.0 (2016-05-11)
+## 1.8.0 (2016-05-11)
 
 * Release v1.8.0. ([6767b49](https://github.com/hmcts/node-request-retry/commit/6767b49))
 * docs(changelog): updated ([97d6429](https://github.com/hmcts/node-request-retry/commit/97d6429))
@@ -131,24 +130,24 @@
 
 
 <a name="1.7.1"></a>
-## 1.7.1 (2016-05-11)
+## <small>1.7.1 (2016-05-11)</small>
 
 * Add support for .get/.post/... helpers ([0cb9e61](https://github.com/hmcts/node-request-retry/commit/0cb9e61))
 * Release v1.7.1. ([55ab78a](https://github.com/hmcts/node-request-retry/commit/55ab78a))
-* defaults(): use extend for "deep" defaulting ([b514a81](https://github.com/hmcts/node-request-retry/commit/b514a81))
+* defaults(): use extend for "deep" defaulting ([b514a81](https://github.com/hmcts/node-request-retry/commit/b514a81)), closes [/github.com/request/request/blob/master/index.js#L90](https://github.com//github.com/request/request/blob/master/index.js/issues/L90)
 * docs(changelog): updated ([9e29831](https://github.com/hmcts/node-request-retry/commit/9e29831))
 * fix(changelog): migrated changelog from ruby to js ([777ca04](https://github.com/hmcts/node-request-retry/commit/777ca04))
 
 
 
 <a name="1.7.0"></a>
-# 1.7.0 (2016-05-06)
+## 1.7.0 (2016-05-06)
 
 * docs(changelog) ([f8e793f](https://github.com/hmcts/node-request-retry/commit/f8e793f))
 * docs(readme) ([f76572d](https://github.com/hmcts/node-request-retry/commit/f76572d))
 * docs(README) ([29b98ea](https://github.com/hmcts/node-request-retry/commit/29b98ea))
 * Release v1.7.0. ([762e150](https://github.com/hmcts/node-request-retry/commit/762e150))
-* Support for request default options. Issue #11 ([70b27ec](https://github.com/hmcts/node-request-retry/commit/70b27ec))
+* Support for request default options. Issue #11 ([70b27ec](https://github.com/hmcts/node-request-retry/commit/70b27ec)), closes [#11](https://github.com/hmcts/node-request-retry/issues/11)
 * Update README.md ([0e684c8](https://github.com/hmcts/node-request-retry/commit/0e684c8))
 * Update README.md ([b45d6b7](https://github.com/hmcts/node-request-retry/commit/b45d6b7))
 * Update README.md ([239e75d](https://github.com/hmcts/node-request-retry/commit/239e75d))
@@ -156,7 +155,7 @@
 
 
 <a name="1.6.0"></a>
-# 1.6.0 (2015-12-25)
+## 1.6.0 (2015-12-25)
 
 * Added bluebird and nock dependencies ([2062358](https://github.com/hmcts/node-request-retry/commit/2062358))
 * Added tests for `promiseFactory` option, using (when.js, Q, kew, RSVP.js) promises libraries ([2cd5c6a](https://github.com/hmcts/node-request-retry/commit/2cd5c6a))
@@ -177,7 +176,7 @@
 
 
 <a name="1.5.0"></a>
-# 1.5.0 (2015-09-24)
+## 1.5.0 (2015-09-24)
 
 * Actually add attempts test ([0db5402](https://github.com/hmcts/node-request-retry/commit/0db5402))
 * Add the attempts property for retry attempt info.  Add a test for it.  Also fix maxAttempts being of ([a130355](https://github.com/hmcts/node-request-retry/commit/a130355))
@@ -188,7 +187,7 @@
 
 
 <a name="1.4.1"></a>
-## 1.4.1 (2015-09-21)
+## <small>1.4.1 (2015-09-21)</small>
 
 * docs(changelog) ([86ff058](https://github.com/hmcts/node-request-retry/commit/86ff058))
 * Release v1.4.1. ([9f6cadf](https://github.com/hmcts/node-request-retry/commit/9f6cadf))
@@ -200,7 +199,7 @@
 
 
 <a name="1.4.0"></a>
-# 1.4.0 (2015-07-16)
+## 1.4.0 (2015-07-16)
 
 * add EAI_AGAIN to the list of retriable network errors ([64b96ff](https://github.com/hmcts/node-request-retry/commit/64b96ff))
 * add notes on request module to readme ([e7acf85](https://github.com/hmcts/node-request-retry/commit/e7acf85))
@@ -210,7 +209,7 @@
 
 
 <a name="1.3.1"></a>
-## 1.3.1 (2015-05-06)
+## <small>1.3.1 (2015-05-06)</small>
 
 * Release v1.3.1. ([bef5dba](https://github.com/hmcts/node-request-retry/commit/bef5dba))
 * docs(changelog): add changelog ([5ea057b](https://github.com/hmcts/node-request-retry/commit/5ea057b))
@@ -219,7 +218,7 @@
 
 
 <a name="1.3.0"></a>
-# 1.3.0 (2015-05-06)
+## 1.3.0 (2015-05-06)
 
 * Release v1.3.0. ([07ac122](https://github.com/hmcts/node-request-retry/commit/07ac122))
 * update dependencies for latest version ([30da1b0](https://github.com/hmcts/node-request-retry/commit/30da1b0))
@@ -227,7 +226,7 @@
 
 
 <a name="1.2.2"></a>
-## 1.2.2 (2015-01-03)
+## <small>1.2.2 (2015-01-03)</small>
 
 * docs(readme) ([94cc707](https://github.com/hmcts/node-request-retry/commit/94cc707))
 * Release v1.2.2. ([4ee950b](https://github.com/hmcts/node-request-retry/commit/4ee950b))
@@ -236,7 +235,7 @@
 
 
 <a name="1.2.1"></a>
-## 1.2.1 (2014-11-10)
+## <small>1.2.1 (2014-11-10)</small>
 
 * add tags for versions ([1b9dddc](https://github.com/hmcts/node-request-retry/commit/1b9dddc))
 * add write method ([ecce4c1](https://github.com/hmcts/node-request-retry/commit/ecce4c1))
@@ -249,7 +248,7 @@
 
 
 <a name="1.2.0"></a>
-# 1.2.0 (2014-11-03)
+## 1.2.0 (2014-11-03)
 
 * add editorconfig & jshintrc ([835d06a](https://github.com/hmcts/node-request-retry/commit/835d06a))
 * add jshintrc ([145e422](https://github.com/hmcts/node-request-retry/commit/145e422))
@@ -262,7 +261,7 @@
 
 
 <a name="1.1.0"></a>
-# 1.1.0 (2014-10-27)
+## 1.1.0 (2014-10-27)
 
 * add @juliendangers as contributor ([27206d8](https://github.com/hmcts/node-request-retry/commit/27206d8))
 * apply original format ([04fa9c6](https://github.com/hmcts/node-request-retry/commit/04fa9c6))
@@ -276,7 +275,7 @@
 
 
 <a name="1.0.4"></a>
-## 1.0.4 (2014-09-30)
+## <small>1.0.4 (2014-09-30)</small>
 
 * EPIPE support ([547ac71](https://github.com/hmcts/node-request-retry/commit/547ac71))
 * Release v1.0.4. ([66e39be](https://github.com/hmcts/node-request-retry/commit/66e39be))
@@ -284,7 +283,7 @@
 
 
 <a name="1.0.3"></a>
-## 1.0.3 (2014-09-23)
+## <small>1.0.3 (2014-09-23)</small>
 
 * . ([370095e](https://github.com/hmcts/node-request-retry/commit/370095e))
 * .gitignore ([f3b0566](https://github.com/hmcts/node-request-retry/commit/f3b0566))
