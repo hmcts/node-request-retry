@@ -1,19 +1,22 @@
 <a name="1.1.2"></a>
 ## <small>1.1.2 (2018-04-05)</small>
 
-* Make options simple defaults to true [#4](https://github.com/hmcts/node-request-retry/pull/4)
-
-
-<a name="1.1.1"></a>
-## <small>1.1.1 (2018-04-04)</small>
-
 * Add then assertion ([9073935](https://github.com/hmcts/node-request-retry/commit/9073935))
+* Bump up the version ([5bac6cb](https://github.com/hmcts/node-request-retry/commit/5bac6cb))
 * Bump versions as bad package-lock published ([66f0164](https://github.com/hmcts/node-request-retry/commit/66f0164))
+* Code review comments ([dd43fac](https://github.com/hmcts/node-request-retry/commit/dd43fac))
+* Code review comments ([c828901](https://github.com/hmcts/node-request-retry/commit/c828901))
+* Correct date in change log ([374e291](https://github.com/hmcts/node-request-retry/commit/374e291))
 * Fix tests and add new ([472e6e1](https://github.com/hmcts/node-request-retry/commit/472e6e1))
+* Make default options.simple to true ([5ce0eb1](https://github.com/hmcts/node-request-retry/commit/5ce0eb1))
+* Refactored code and added tests ([db752fa](https://github.com/hmcts/node-request-retry/commit/db752fa))
 * Reject promises on 4XX and 5XX responses (#1) ([2dca4b3](https://github.com/hmcts/node-request-retry/commit/2dca4b3)), closes [#1](https://github.com/hmcts/node-request-retry/issues/1)
 * Reject promises with request-promise StatusCodeError (#2) ([50fed0f](https://github.com/hmcts/node-request-retry/commit/50fed0f)), closes [#2](https://github.com/hmcts/node-request-retry/issues/2)
+* Unit test for undefined or null options ([2e72c63](https://github.com/hmcts/node-request-retry/commit/2e72c63))
 * Update change log ([daee09d](https://github.com/hmcts/node-request-retry/commit/daee09d))
+* Update change log ([bcd5c4e](https://github.com/hmcts/node-request-retry/commit/bcd5c4e))
 * Use options.simple to decide rejections ([907fc18](https://github.com/hmcts/node-request-retry/commit/907fc18))
+* docs(changelog): updated ([22d9089](https://github.com/hmcts/node-request-retry/commit/22d9089))
 * docs(changelog): updated ([1df3e60](https://github.com/hmcts/node-request-retry/commit/1df3e60))
 * docs(changelog): updated ([282c849](https://github.com/hmcts/node-request-retry/commit/282c849))
 * docs(changelog): updated ([2cff7a4](https://github.com/hmcts/node-request-retry/commit/2cff7a4))
