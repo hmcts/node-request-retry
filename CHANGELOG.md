@@ -1,23 +1,23 @@
 <a name="1.1.2"></a>
-# 1.1.2 (2018-04-05)
+## <small>1.1.2 (2018-04-04)</small>
 
 * Make options simple defaults to true [#4](https://github.com/hmcts/node-request-retry/pull/4)
 
 
 <a name="1.1.1"></a>
-# 1.1.1 (2018-04-04)
+## <small>1.1.1 (2018-04-04)</small>
 
-* Use options simple to decide rejections [#3](https://github.com/hmcts/node-request-retry/pull/3)
-
-
-# 1.1.0 (2018-03-01)
-
+* Add then assertion ([9073935](https://github.com/hmcts/node-request-retry/commit/9073935))
 * Bump versions as bad package-lock published ([66f0164](https://github.com/hmcts/node-request-retry/commit/66f0164))
-* Reject promises on 4XX and 5XX responses (#1) ([2dca4b3](https://github.com/hmcts/node-request-retry/commit/2dca4b3))
-* Reject promises with request-promise StatusCodeError (#2) ([50fed0f](https://github.com/hmcts/node-request-retry/commit/50fed0f))
+* Fix tests and add new ([472e6e1](https://github.com/hmcts/node-request-retry/commit/472e6e1))
+* Reject promises on 4XX and 5XX responses (#1) ([2dca4b3](https://github.com/hmcts/node-request-retry/commit/2dca4b3)), closes [#1](https://github.com/hmcts/node-request-retry/issues/1)
+* Reject promises with request-promise StatusCodeError (#2) ([50fed0f](https://github.com/hmcts/node-request-retry/commit/50fed0f)), closes [#2](https://github.com/hmcts/node-request-retry/issues/2)
+* Update change log ([daee09d](https://github.com/hmcts/node-request-retry/commit/daee09d))
+* Use options.simple to decide rejections ([907fc18](https://github.com/hmcts/node-request-retry/commit/907fc18))
+* docs(changelog): updated ([1df3e60](https://github.com/hmcts/node-request-retry/commit/1df3e60))
 * docs(changelog): updated ([282c849](https://github.com/hmcts/node-request-retry/commit/282c849))
 * docs(changelog): updated ([2cff7a4](https://github.com/hmcts/node-request-retry/commit/2cff7a4))
-* docs(changelog): updated ([54a604a](https://github.com/hmcts/node-request-retry/commit/54a604a))54a604a](https://github.com/hmcts/node-request-retry/commit/54a604a))
+* docs(changelog): updated ([54a604a](https://github.com/hmcts/node-request-retry/commit/54a604a))
 
 
 
