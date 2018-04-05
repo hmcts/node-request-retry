@@ -1,3 +1,9 @@
+<a name="1.1.2"></a>
+## <small>1.1.2 (2018-04-05)</small>
+
+* Make options simple defaults to true [#4](https://github.com/hmcts/node-request-retry/pull/4)
+
+
 <a name="1.1.1"></a>
 ## <small>1.1.1 (2018-04-04)</small>
 
