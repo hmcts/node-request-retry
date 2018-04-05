@@ -5,6 +5,9 @@
  * @return boolean true if options.simple is set to use default value
  */
 function shouldRejectErrorResponse (options) {
+  if(!options) {
+    return true;
+  }
   return (options.simple === undefined || options.simple === true);
 }
 
